@@ -7,7 +7,7 @@ public class ClickHandler : MonoBehaviour
 
     public event UnityAction<bool> ButtonPressed;
 
-    void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
