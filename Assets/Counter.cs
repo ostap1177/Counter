@@ -4,8 +4,8 @@ using UnityEngine.Events;
 
 public class Counter : MonoBehaviour
 {
-    [SerializeField] float _delay = 0.5f;
-    [SerializeField] ClickHandler _clickHandler;
+    [SerializeField] private float _delay = 0.5f;
+    [SerializeField] private ClickHandler _clickHandler;
 
     private int _counter;
     private Coroutine _coroutine;
